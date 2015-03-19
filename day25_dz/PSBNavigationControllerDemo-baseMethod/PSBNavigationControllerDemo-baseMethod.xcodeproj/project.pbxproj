@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71E0D10D1AB66C6200994F4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E0D10C1AB66C6200994F4B /* Foundation.framework */; };
+		71E0D10F1AB66C6200994F4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E0D10E1AB66C6200994F4B /* CoreGraphics.framework */; };
+		71E0D1111AB66C6200994F4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E0D1101AB66C6200994F4B /* UIKit.framework */; };
+		71E0D1171AB66C6200994F4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71E0D1151AB66C6200994F4B /* InfoPlist.strings */; };
+		71E0D1191AB66C6200994F4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0D1181AB66C6200994F4B /* main.m */; };
+		71E0D11D1AB66C6300994F4B /* PSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0D11C1AB66C6300994F4B /* PSBAppDelegate.m */; };
+		71E0D11F1AB66C6300994F4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E0D11E1AB66C6300994F4B /* Images.xcassets */; };
+		71E0D1261AB66C6300994F4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E0D1251AB66C6300994F4B /* XCTest.framework */; };
+		71E0D1271AB66C6300994F4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E0D10C1AB66C6200994F4B /* Foundation.framework */; };
+		71E0D1281AB66C6300994F4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E0D1101AB66C6200994F4B /* UIKit.framework */; };
+		71E0D1301AB66C6300994F4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71E0D12E1AB66C6300994F4B /* InfoPlist.strings */; };
+		71E0D1321AB66C6300994F4B /* PSBNavigationControllerDemo_baseMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0D1311AB66C6300994F4B /* PSBNavigationControllerDemo_baseMethodTests.m */; };
+		71E0D13D1AB66CBB00994F4B /* PSBListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0D13C1AB66CBB00994F4B /* PSBListViewController.m */; };
+		71E0D1401AB66CE600994F4B /* PSBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0D13F1AB66CE600994F4B /* PSBDetailViewController.m */; };
+		71E0D1441AB6737E00994F4B /* UIView+PSBTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0D1431AB6737E00994F4B /* UIView+PSBTransitionAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71E0D1291AB66C6300994F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E0D1011AB66C6200994F4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E0D1081AB66C6200994F4B;
+			remoteInfo = "PSBNavigationControllerDemo-baseMethod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71E0D1091AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSBNavigationControllerDemo-baseMethod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E0D10C1AB66C6200994F4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71E0D10E1AB66C6200994F4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71E0D1101AB66C6200994F4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71E0D1141AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSBNavigationControllerDemo-baseMethod-Info.plist"; sourceTree = "<group>"; };
+		71E0D1161AB66C6200994F4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71E0D1181AB66C6200994F4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71E0D11A1AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethod-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSBNavigationControllerDemo-baseMethod-Prefix.pch"; sourceTree = "<group>"; };
+		71E0D11B1AB66C6300994F4B /* PSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSBAppDelegate.h; sourceTree = "<group>"; };
+		71E0D11C1AB66C6300994F4B /* PSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSBAppDelegate.m; sourceTree = "<group>"; };
+		71E0D11E1AB66C6300994F4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71E0D1241AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PSBNavigationControllerDemo-baseMethodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E0D1251AB66C6300994F4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		71E0D12D1AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSBNavigationControllerDemo-baseMethodTests-Info.plist"; sourceTree = "<group>"; };
+		71E0D12F1AB66C6300994F4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71E0D1311AB66C6300994F4B /* PSBNavigationControllerDemo_baseMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSBNavigationControllerDemo_baseMethodTests.m; sourceTree = "<group>"; };
+		71E0D13B1AB66CBB00994F4B /* PSBListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSBListViewController.h; path = "PSBNavigationControllerDemo-baseMethod/PSBListViewController.h"; sourceTree = "<group>"; };
+		71E0D13C1AB66CBB00994F4B /* PSBListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSBListViewController.m; path = "PSBNavigationControllerDemo-baseMethod/PSBListViewController.m"; sourceTree = "<group>"; };
+		71E0D13E1AB66CE600994F4B /* PSBDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSBDetailViewController.h; path = "PSBNavigationControllerDemo-baseMethod/PSBDetailViewController.h"; sourceTree = "<group>"; };
+		71E0D13F1AB66CE600994F4B /* PSBDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSBDetailViewController.m; path = "PSBNavigationControllerDemo-baseMethod/PSBDetailViewController.m"; sourceTree = "<group>"; };
+		71E0D1421AB6737E00994F4B /* UIView+PSBTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PSBTransitionAnimation.h"; sourceTree = "<group>"; };
+		71E0D1431AB6737E00994F4B /* UIView+PSBTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PSBTransitionAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E0D1061AB66C6200994F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0D10F1AB66C6200994F4B /* CoreGraphics.framework in Frameworks */,
+				71E0D1111AB66C6200994F4B /* UIKit.framework in Frameworks */,
+				71E0D10D1AB66C6200994F4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E0D1211AB66C6300994F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0D1261AB66C6300994F4B /* XCTest.framework in Frameworks */,
+				71E0D1281AB66C6300994F4B /* UIKit.framework in Frameworks */,
+				71E0D1271AB66C6300994F4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71E0D1001AB66C6200994F4B = {
+			isa = PBXGroup;
+			children = (
+				71E0D1411AB6737E00994F4B /* PSBTransitionAnimation */,
+				71E0D13E1AB66CE600994F4B /* PSBDetailViewController.h */,
+				71E0D13F1AB66CE600994F4B /* PSBDetailViewController.m */,
+				71E0D13B1AB66CBB00994F4B /* PSBListViewController.h */,
+				71E0D13C1AB66CBB00994F4B /* PSBListViewController.m */,
+				71E0D1121AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod */,
+				71E0D12B1AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethodTests */,
+				71E0D10B1AB66C6200994F4B /* Frameworks */,
+				71E0D10A1AB66C6200994F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71E0D10A1AB66C6200994F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E0D1091AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod.app */,
+				71E0D1241AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E0D10B1AB66C6200994F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71E0D10C1AB66C6200994F4B /* Foundation.framework */,
+				71E0D10E1AB66C6200994F4B /* CoreGraphics.framework */,
+				71E0D1101AB66C6200994F4B /* UIKit.framework */,
+				71E0D1251AB66C6300994F4B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71E0D1121AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod */ = {
+			isa = PBXGroup;
+			children = (
+				71E0D11B1AB66C6300994F4B /* PSBAppDelegate.h */,
+				71E0D11C1AB66C6300994F4B /* PSBAppDelegate.m */,
+				71E0D11E1AB66C6300994F4B /* Images.xcassets */,
+				71E0D1131AB66C6200994F4B /* Supporting Files */,
+			);
+			path = "PSBNavigationControllerDemo-baseMethod";
+			sourceTree = "<group>";
+		};
+		71E0D1131AB66C6200994F4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71E0D1141AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod-Info.plist */,
+				71E0D1151AB66C6200994F4B /* InfoPlist.strings */,
+				71E0D1181AB66C6200994F4B /* main.m */,
+				71E0D11A1AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethod-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71E0D12B1AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethodTests */ = {
+			isa = PBXGroup;
+			children = (
+				71E0D1311AB66C6300994F4B /* PSBNavigationControllerDemo_baseMethodTests.m */,
+				71E0D12C1AB66C6300994F4B /* Supporting Files */,
+			);
+			path = "PSBNavigationControllerDemo-baseMethodTests";
+			sourceTree = "<group>";
+		};
+		71E0D12C1AB66C6300994F4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71E0D12D1AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethodTests-Info.plist */,
+				71E0D12E1AB66C6300994F4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71E0D1411AB6737E00994F4B /* PSBTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				71E0D1421AB6737E00994F4B /* UIView+PSBTransitionAnimation.h */,
+				71E0D1431AB6737E00994F4B /* UIView+PSBTransitionAnimation.m */,
+			);
+			path = PSBTransitionAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E0D1081AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E0D1351AB66C6300994F4B /* Build configuration list for PBXNativeTarget "PSBNavigationControllerDemo-baseMethod" */;
+			buildPhases = (
+				71E0D1051AB66C6200994F4B /* Sources */,
+				71E0D1061AB66C6200994F4B /* Frameworks */,
+				71E0D1071AB66C6200994F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PSBNavigationControllerDemo-baseMethod";
+			productName = "PSBNavigationControllerDemo-baseMethod";
+			productReference = 71E0D1091AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71E0D1231AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E0D1381AB66C6300994F4B /* Build configuration list for PBXNativeTarget "PSBNavigationControllerDemo-baseMethodTests" */;
+			buildPhases = (
+				71E0D1201AB66C6300994F4B /* Sources */,
+				71E0D1211AB66C6300994F4B /* Frameworks */,
+				71E0D1221AB66C6300994F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E0D12A1AB66C6300994F4B /* PBXTargetDependency */,
+			);
+			name = "PSBNavigationControllerDemo-baseMethodTests";
+			productName = "PSBNavigationControllerDemo-baseMethodTests";
+			productReference = 71E0D1241AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E0D1011AB66C6200994F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PSB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PSB;
+				TargetAttributes = {
+					71E0D1231AB66C6300994F4B = {
+						TestTargetID = 71E0D1081AB66C6200994F4B;
+					};
+				};
+			};
+			buildConfigurationList = 71E0D1041AB66C6200994F4B /* Build configuration list for PBXProject "PSBNavigationControllerDemo-baseMethod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71E0D1001AB66C6200994F4B;
+			productRefGroup = 71E0D10A1AB66C6200994F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E0D1081AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod */,
+				71E0D1231AB66C6300994F4B /* PSBNavigationControllerDemo-baseMethodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E0D1071AB66C6200994F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0D1171AB66C6200994F4B /* InfoPlist.strings in Resources */,
+				71E0D11F1AB66C6300994F4B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E0D1221AB66C6300994F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0D1301AB66C6300994F4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E0D1051AB66C6200994F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0D1441AB6737E00994F4B /* UIView+PSBTransitionAnimation.m in Sources */,
+				71E0D11D1AB66C6300994F4B /* PSBAppDelegate.m in Sources */,
+				71E0D13D1AB66CBB00994F4B /* PSBListViewController.m in Sources */,
+				71E0D1191AB66C6200994F4B /* main.m in Sources */,
+				71E0D1401AB66CE600994F4B /* PSBDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E0D1201AB66C6300994F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0D1321AB66C6300994F4B /* PSBNavigationControllerDemo_baseMethodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71E0D12A1AB66C6300994F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E0D1081AB66C6200994F4B /* PSBNavigationControllerDemo-baseMethod */;
+			targetProxy = 71E0D1291AB66C6300994F4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71E0D1151AB66C6200994F4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E0D1161AB66C6200994F4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71E0D12E1AB66C6300994F4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E0D12F1AB66C6300994F4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E0D1331AB66C6300994F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71E0D1341AB66C6300994F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E0D1361AB66C6300994F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSBNavigationControllerDemo-baseMethod/PSBNavigationControllerDemo-baseMethod-Prefix.pch";
+				INFOPLIST_FILE = "PSBNavigationControllerDemo-baseMethod/PSBNavigationControllerDemo-baseMethod-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71E0D1371AB66C6300994F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSBNavigationControllerDemo-baseMethod/PSBNavigationControllerDemo-baseMethod-Prefix.pch";
+				INFOPLIST_FILE = "PSBNavigationControllerDemo-baseMethod/PSBNavigationControllerDemo-baseMethod-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		71E0D1391AB66C6300994F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PSBNavigationControllerDemo-baseMethod.app/PSBNavigationControllerDemo-baseMethod";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSBNavigationControllerDemo-baseMethod/PSBNavigationControllerDemo-baseMethod-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PSBNavigationControllerDemo-baseMethodTests/PSBNavigationControllerDemo-baseMethodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		71E0D13A1AB66C6300994F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PSBNavigationControllerDemo-baseMethod.app/PSBNavigationControllerDemo-baseMethod";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSBNavigationControllerDemo-baseMethod/PSBNavigationControllerDemo-baseMethod-Prefix.pch";
+				INFOPLIST_FILE = "PSBNavigationControllerDemo-baseMethodTests/PSBNavigationControllerDemo-baseMethodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E0D1041AB66C6200994F4B /* Build configuration list for PBXProject "PSBNavigationControllerDemo-baseMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E0D1331AB66C6300994F4B /* Debug */,
+				71E0D1341AB66C6300994F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E0D1351AB66C6300994F4B /* Build configuration list for PBXNativeTarget "PSBNavigationControllerDemo-baseMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E0D1361AB66C6300994F4B /* Debug */,
+				71E0D1371AB66C6300994F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E0D1381AB66C6300994F4B /* Build configuration list for PBXNativeTarget "PSBNavigationControllerDemo-baseMethodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E0D1391AB66C6300994F4B /* Debug */,
+				71E0D13A1AB66C6300994F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E0D1011AB66C6200994F4B /* Project object */;
+}
